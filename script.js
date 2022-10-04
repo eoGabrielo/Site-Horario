@@ -7,7 +7,7 @@ function carregar(){
     var minuto= data.getMinutes()//Adiciona a variavel minuto, o minuto do computador(Sem as horas).
     var manhaTardeNoite; //Recebe manha, tarde e noite para completar a frase.
     
-    var texto= prompt("Ola, qual seu nome? ")
+    var texto= prompt("Olá, qual seu nome? ")
 
     if (hora >= 1 && hora < 12 ){ // Maior ou igual a 1 e menor que 12 - BOM DIA.
         img.src= "manha.png"
