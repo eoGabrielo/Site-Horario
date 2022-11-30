@@ -1,6 +1,6 @@
 # HORÁRIO
 
-Código desenvolvido para mostrar horário para o usuário, com alguns efeitos para Manhã, Tarde e Noite.
+Código desenvolvido para mostrar horário para o usuário com efeitos para cada hora do dia.
 
 # Lógica
 
