@@ -44,11 +44,8 @@ Ao carregar a página, o usuário é solicitado a inserir seu nome. Com base na 
 </html>
 ```
 
-**Divirta-se explorando o projeto!**
-
 ## Detalhes do Código
 
 - `toUpperCase`: Transforma a primeira letra do nome inserido em maiúscula.
 - `substring()`: Obtém o restante do nome após a primeira letra.
 
-Sinta-se à vontade para personalizar o projeto de acordo com suas preferências.
