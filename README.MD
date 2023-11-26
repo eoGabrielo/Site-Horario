@@ -1,9 +1,18 @@
-# HORÁRIO
+# Horário
 
-Código desenvolvido para mostrar horário para o usuário com efeitos para cada hora do dia.
+Este projeto apresenta um relógio interativo que não apenas mostra a hora, mas também adapta o visual com base nos períodos do dia. A lógica simples implementa saudações e cores de fundo distintas para manhã, tarde e noite.
 
-# Lógica
+## Lógica
 
-Foi pensando que no horário das 01:00 até as 11:59 fosse considerado manhã, 12:00 até 17:59 considerado tarde e das 18:00 até as 00:59 noite.<br />
-Com um simples if, else if e else, foi desenvolvido uma lógica para alterar a cor de fundo imagem e a saudação de acordo com os horários.<br />
-Para ter o horário foi usado um método do JavaScript => new Date() que retorna a data do dia, com isso foi possível saber o horário que o usuário entrou na página com os métodos get's e assim poder retorna a hora e minutos com seu visual setado.<br />
+A classificação dos períodos do dia é realizada com uma lógica eficiente usando condicionais simples (if, else if, else). A cor de fundo e a saudação são alteradas conforme o horário atual, proporcionando uma experiência visual envolvente.
+
+## Obtendo o Horário
+
+O horário é obtido utilizando o método `new Date()` do JavaScript, que retorna a data e a hora atuais. Com os métodos `getHours()` e `getMinutes()`, conseguimos extrair informações precisas sobre a hora e os minutos, personalizando assim a apresentação do relógio.
+
+## Experiência Dinâmica
+
+A dinamicidade do projeto reside na sua capacidade de se adaptar visualmente com o decorrer do dia. Desde a manhã até a noite, o usuário é recebido com uma estética única, tornando a experiência mais envolvente.
+
+Sinta-se à vontade para explorar, aprimorar e personalizar o código para atender às suas preferências e necessidades.
+
